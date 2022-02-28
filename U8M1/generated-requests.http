@@ -1,0 +1,16 @@
+###
+POST http://localhost:8080/book
+Content-Type: application/json
+
+{
+  "title": "The Scorch Trials",
+  "author": "James Dashner"
+}
+
+###
+
+DELETE http://localhost:8080/book/2
+
+###
+PUT http://localhost:8080/book/1?author=suzan
+Content-Type: application/json
